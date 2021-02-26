@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/functions.js"></script>
+</head>
+
+<body>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Default')">Default</button>
+        <button class="tablinks" onclick="openTab(event, '')">SES</button>
+        <button class="tablinks" onclick="openTab(event, '')">Other</button>
+    </div>
+
+    <div id="Default" class="tabcontent">
+        <div class="container">
+            <div class="left">
+                <div class="header">
+                    <h2 class="animation a1">Template Default Detailed Banner</h2>
+                    <h4 class="animation a2">Ingresa la información necesaria</h4>
+                </div>
+                <div class="form">
+                    <div class="contenedor">
+                        <input name="urlLogo" type="text" class="form-field animation a3" placeholder="URL Logo Image">
+                        <span class="tooltip indicator"><img src="img/info.png" width="20px" style="align-items: center;"><img class="tooltiptext" src="img/frame1.jpg"></span>
+                    </div>
+                    <div>
+                        <input name="title" type="text" class="form-field animation a4" placeholder="Title">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/title.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="copy1" type="text" class="form-field animation a4" placeholder="Copy 1">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/copy1.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="vigencia" type="text" class="form-field animation a4" placeholder="Example: 24 de marzo">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/frame1.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="url" type="text" class="form-field animation a4" placeholder="Url copy page">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/frame1.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="codProm" type="text" class="form-field animation a4" placeholder="Code Prom">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/codProm.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="copy2" type="text" class="form-field animation a4" placeholder="Copy 2">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/copy2.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="cta" type="text" class="form-field animation a4" placeholder="URL CTA">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/linkCTA.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="urlImg" type="text" class="form-field animation a4" placeholder="URL Image">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/image.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="tyc" type="text" class="form-field animation a4" placeholder="TyC">
+                        <span class="tooltip"><img src="img/info.png" width="20px"><img class="tooltiptext" src="img/tyc.jpg"></span>
+                    </div>
+
+                    <div>
+                        <input name="bgColor" id="hex" type="text" class="form-field animation a4" placeholder="Background">
+                        <input class="picker" name="Color Picker" id="color" type="color" />
+                    </div>
+                    <!--<button class="animation a6">DOWNLOAD GENERATED FILE</button>-->
+                </div>
+            </div>
+            <div class="right" style="text-align: center;">
+                <textarea name="" id="output2" cols="100" rows="30"></textarea> <br>
+                <input class="btnDown" type="button" id="dwn-btn" value="DOWNLOAD FILE" />
+            </div>
+        </div>
+    </div>
+
+    <div id="SES" class="tabcontent">
+
+    </div>
+
+    <div id="Other" class="tabcontent">
+
+    </div>
+
+</body>
+
+</html>
